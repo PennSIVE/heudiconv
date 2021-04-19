@@ -1,4 +1,4 @@
-FROM nipy/heudiconv:0.8.0
+FROM nipy/heudiconv:0.9.0
 RUN rm -rf /opt/dcm2niix* && \
     git clone https://github.com/rordenlab/dcm2niix.git && \
     cd dcm2niix && \
